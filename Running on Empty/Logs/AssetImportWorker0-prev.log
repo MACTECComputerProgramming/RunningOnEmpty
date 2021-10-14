@@ -1,0 +1,1014 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.19f1 (68f137dc9bbe) revision 6877495'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.1237; Version 2009; 64bit' Language: 'en' Physical Memory: 14213 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/maconrm180/Documents/Running on Empty/RunningOnEmpty/Running on Empty
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+65374
+Successfully changed project path to: C:/Users/maconrm180/Documents/Running on Empty/RunningOnEmpty/Running on Empty
+C:/Users/maconrm180/Documents/Running on Empty/RunningOnEmpty/Running on Empty
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 55.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.19f1 (68f137dc9bbe)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/maconrm180/Documents/Running on Empty/RunningOnEmpty/Running on Empty/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) RX Vega 10 Graphics (ID=0x15d8)
+    Vendor:   
+    VRAM:     7106 MB
+    Driver:   27.20.11012.14001
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56444
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004114 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 48.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.871 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1872ms)
+		BeginReloadAssembly (94ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (590ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (205ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (238ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (49ms)
+				BeforeProcessingInitializeOnLoad (20ms)
+				ProcessInitializeOnLoadAttributes (112ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007414 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 47.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.880 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1881ms)
+		BeginReloadAssembly (215ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (1549ms)
+			LoadAssemblies (135ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (519ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (79ms)
+			SetupLoadedEditorAssemblies (501ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (48ms)
+				BeforeProcessingInitializeOnLoad (118ms)
+				ProcessInitializeOnLoadAttributes (296ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2091 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.7 MB.
+System memory in use after: 93.8 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2530.
+Total: 5.776000 ms (FindLiveObjects: 0.305200 ms CreateObjectMapping: 0.094900 ms MarkObjects: 5.254900 ms  DeleteObjects: 0.118600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.022690 seconds 
+  Import took 0.027127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1110.186222 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(b90e10d52c19d4e44924040ae92a252e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(b90e10d52c19d4e44924040ae92a252e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0887bab00c2d6e8b42eae957641b0fab') in 0.020036 seconds 
+  Import took 0.024289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.902068 seconds.
+  path: Assets/Stomper Artwork
+  artifactKey: Guid(9b752384e9e64bf48a64e4000a450d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork using Guid(9b752384e9e64bf48a64e4000a450d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85ef0ddd458d575e8f292b6257d21b9a') in 0.020159 seconds 
+  Import took 0.025588 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.478181 seconds.
+  path: Assets/Stomper Artwork/Scenes
+  artifactKey: Guid(3ba5a3d8500da4ed6a6e6f9c13e33308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/Scenes using Guid(3ba5a3d8500da4ed6a6e6f9c13e33308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '168ba6f463abc0a2b60b9c22cbe2d185') in 0.006683 seconds 
+  Import took 0.011330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.241398 seconds.
+  path: Assets/Stomper Artwork/Scenes/Demo.unity
+  artifactKey: Guid(116954394b33f47ff9a3f8839bf99097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/Scenes/Demo.unity using Guid(116954394b33f47ff9a3f8839bf99097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec75d0b618e43b2f4c60f1473783467a') in 0.029850 seconds 
+  Import took 0.034460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.535143 seconds.
+  path: Assets/Stomper Artwork/Audio/musicbox.wav
+  artifactKey: Guid(992a4e4ce5cf8402fa6b371442dcfae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/Audio/musicbox.wav using Guid(992a4e4ce5cf8402fa6b371442dcfae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1de3a9abc58e55665070c108c12e7bb') in 0.279431 seconds 
+  Import took 0.284631 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 237.768041 seconds.
+  path: Assets/Stomper Artwork/PixelArt/environment
+  artifactKey: Guid(8adf575c7c9bd4ef289ab2010cc6121d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/PixelArt/environment using Guid(8adf575c7c9bd4ef289ab2010cc6121d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6e230d241fc486f4f1bc3272a11b978') in 0.013914 seconds 
+  Import took 0.019113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.063455 seconds.
+  path: Assets/Stomper Artwork/PixelArt/environment/brick.png
+  artifactKey: Guid(a934ff39dd3bc4058bcf1ef115508bc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/PixelArt/environment/brick.png using Guid(a934ff39dd3bc4058bcf1ef115508bc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9072ccdea5cd0ae8d3ba0694a9d57028') in 0.067550 seconds 
+  Import took 0.073103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Stomper Artwork/PixelArt/environment/spikes.png
+  artifactKey: Guid(2739108c49f9a4ecf84fac4e1d8857ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/PixelArt/environment/spikes.png using Guid(2739108c49f9a4ecf84fac4e1d8857ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '955cc5f44d2ecc1b82c065a6c0ec1940') in 0.026925 seconds 
+  Import took 0.030934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Stomper Artwork/PixelArt/environment/spike-block.png
+  artifactKey: Guid(4dcb185a9fc2e4239aac5033780c410a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/PixelArt/environment/spike-block.png using Guid(4dcb185a9fc2e4239aac5033780c410a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acef26c9ff4d1529cee695f34273e0fb') in 0.027468 seconds 
+  Import took 0.032448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 239.220347 seconds.
+  path: Assets/Stomper Artwork/PixelArt/environment/level.aseprite
+  artifactKey: Guid(21a6bb1827092497ba4177b2e90c9c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/PixelArt/environment/level.aseprite using Guid(21a6bb1827092497ba4177b2e90c9c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '827925859de5334b91053f43eb32ac13') in 0.021056 seconds 
+  Import took 0.025469 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.226541 seconds.
+  path: Assets/Stomper Artwork/PixelArt/environment/zaphire
+  artifactKey: Guid(accd19e15ea2d4d5ab683a5b1c6d59b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/PixelArt/environment/zaphire using Guid(accd19e15ea2d4d5ab683a5b1c6d59b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4dd6319d3781058a65a8a71f3146289') in 0.014405 seconds 
+  Import took 0.033023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.042617 seconds.
+  path: Assets/Stomper Artwork/PixelArt/environment/zaphire/zaphire1.png
+  artifactKey: Guid(15a308a4e562348e596ed600590d6e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/PixelArt/environment/zaphire/zaphire1.png using Guid(15a308a4e562348e596ed600590d6e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cd6ad583dce9e86ad5b48773d001c7d') in 0.024445 seconds 
+  Import took 0.029192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Stomper Artwork/PixelArt/environment/zaphire/zaphire2.png
+  artifactKey: Guid(5894857e771d549c895d6fe6e9523f1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/PixelArt/environment/zaphire/zaphire2.png using Guid(5894857e771d549c895d6fe6e9523f1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '118c7e6ae79ee01962a072b6ee8fc734') in 0.025437 seconds 
+  Import took 0.029892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Stomper Artwork/PixelArt/environment/zaphire/zaphire4.png
+  artifactKey: Guid(40e04951e22d9402d9622cd21b8185f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/PixelArt/environment/zaphire/zaphire4.png using Guid(40e04951e22d9402d9622cd21b8185f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93bd35c9a04c7a7e7addad44c653f8e6') in 0.026833 seconds 
+  Import took 0.032473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Stomper Artwork/PixelArt/environment/zaphire/zaphire3.png
+  artifactKey: Guid(a54110f92cafc4b25a77330eccaa0c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/PixelArt/environment/zaphire/zaphire3.png using Guid(a54110f92cafc4b25a77330eccaa0c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3a16407a0063a759d209d07d319c0a4') in 0.025963 seconds 
+  Import took 0.031003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.694253 seconds.
+  path: Assets/Stomper Artwork/PixelArt/environment/Back animated/back-animated1.png
+  artifactKey: Guid(fbc251e7a3f2a432ab69caef40c0edc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/PixelArt/environment/Back animated/back-animated1.png using Guid(fbc251e7a3f2a432ab69caef40c0edc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5ad3c57d8e7d7f065271b920a1e4088') in 0.023671 seconds 
+  Import took 0.028989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000455 seconds.
+  path: Assets/Stomper Artwork/PixelArt/environment/Back animated/back-animated3.png
+  artifactKey: Guid(7b8fc1fe2873a48cfb18db6093c125ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/PixelArt/environment/Back animated/back-animated3.png using Guid(7b8fc1fe2873a48cfb18db6093c125ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af1f9c0b06d964a34c6caf64deaad53a') in 0.025994 seconds 
+  Import took 0.030630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Stomper Artwork/PixelArt/environment/Back animated/back-animated2.png
+  artifactKey: Guid(658ad0f09bbb147f9a23271d119d91b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/PixelArt/environment/Back animated/back-animated2.png using Guid(658ad0f09bbb147f9a23271d119d91b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2d6d089b8e4876df480835dd3ca08d2') in 0.026040 seconds 
+  Import took 0.030875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.923522 seconds.
+  path: Assets/Stomper Artwork/PixelArt/environment/layers/back.png
+  artifactKey: Guid(6013f11a95dcd466ab6453277532bd41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/PixelArt/environment/layers/back.png using Guid(6013f11a95dcd466ab6453277532bd41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a2f5f40550c5db1e9787472f2b33c90') in 0.027825 seconds 
+  Import took 0.033374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/Stomper Artwork/PixelArt/environment/layers/slime-block.png
+  artifactKey: Guid(98bfa39c86e1b48d2a1a7e9b656269fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/PixelArt/environment/layers/slime-block.png using Guid(98bfa39c86e1b48d2a1a7e9b656269fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d20bd4f971b2949a577ea32c186f910') in 0.027720 seconds 
+  Import took 0.033134 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Stomper Artwork/PixelArt/environment/layers/plant.png
+  artifactKey: Guid(e4bcfee496ffb4440818ea66a48e4e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/PixelArt/environment/layers/plant.png using Guid(e4bcfee496ffb4440818ea66a48e4e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3037aed5520b2f07e0a8e1c1f783f203') in 0.025147 seconds 
+  Import took 0.029131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Stomper Artwork/PixelArt/environment/layers/tileset.png
+  artifactKey: Guid(e18eac11ce6cd4262a5c373ec2656d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/PixelArt/environment/layers/tileset.png using Guid(e18eac11ce6cd4262a5c373ec2656d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '091a083f43eaccda04199e74d0d19b79') in 0.029961 seconds 
+  Import took 0.034945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.159377 seconds.
+  path: Assets/Stomper Artwork/PixelArt/environment/Shooting head/shooting-head.png
+  artifactKey: Guid(050a3a2a4f3ed4e8e862f31ae1112f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/PixelArt/environment/Shooting head/shooting-head.png using Guid(050a3a2a4f3ed4e8e862f31ae1112f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1938092eab3f6da180a0ce5ea397b0c8') in 0.029555 seconds 
+  Import took 0.034798 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.208772 seconds.
+  path: Assets/Stomper Artwork/PixelArt/environment/slime-block/slime-block.png
+  artifactKey: Guid(0dfebce592a8241808613261b848d828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/PixelArt/environment/slime-block/slime-block.png using Guid(0dfebce592a8241808613261b848d828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95a4e26680d4725f9babfc688285f3c4') in 0.025012 seconds 
+  Import took 0.030482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.403104 seconds.
+  path: Assets/Stomper Artwork/PixelArt/Flying Enemy/flying1.png
+  artifactKey: Guid(4c980c882a17d407fb74b2e37bdb1c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/PixelArt/Flying Enemy/flying1.png using Guid(4c980c882a17d407fb74b2e37bdb1c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5c06bcb4282504ae697679dd35b11ca') in 0.023297 seconds 
+  Import took 0.027840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Stomper Artwork/PixelArt/Flying Enemy/stunt2.png
+  artifactKey: Guid(eaffd8dedc76c49b1941044808a2a46b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/PixelArt/Flying Enemy/stunt2.png using Guid(eaffd8dedc76c49b1941044808a2a46b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91b33cd21f8cfcecb8ea630d5267ccfa') in 0.025474 seconds 
+  Import took 0.030545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Stomper Artwork/PixelArt/Flying Enemy/flying3.png
+  artifactKey: Guid(1ff01ae5922a449e99a2cc9a5a4a17e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/PixelArt/Flying Enemy/flying3.png using Guid(1ff01ae5922a449e99a2cc9a5a4a17e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7b94839e3af6b6f1ada36165f7b612d') in 0.027730 seconds 
+  Import took 0.033060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Stomper Artwork/PixelArt/Flying Enemy/flying2.png
+  artifactKey: Guid(bf121ccba8350407587d45091767cac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/PixelArt/Flying Enemy/flying2.png using Guid(bf121ccba8350407587d45091767cac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cb62b9ef15e92ceb9110bbe6e261556') in 0.023716 seconds 
+  Import took 0.028717 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Stomper Artwork/PixelArt/Flying Enemy/flying4.png
+  artifactKey: Guid(6efa9a945fa88437a9e787a53237d5e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/PixelArt/Flying Enemy/flying4.png using Guid(6efa9a945fa88437a9e787a53237d5e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '443a4634e87f0b1dbdfb8490a6ac472c') in 0.028032 seconds 
+  Import took 0.032217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Stomper Artwork/PixelArt/Flying Enemy/stunt1.png
+  artifactKey: Guid(80406afd4e21c4fc2ba7ad3a3f47fa98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/PixelArt/Flying Enemy/stunt1.png using Guid(80406afd4e21c4fc2ba7ad3a3f47fa98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb1df49ec5a0262fa86a29629aa81f79') in 0.024813 seconds 
+  Import took 0.029079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.224841 seconds.
+  path: Assets/Stomper Artwork/PixelArt/Misc/Door
+  artifactKey: Guid(506170e77a14d46eaa059be29931f467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/PixelArt/Misc/Door using Guid(506170e77a14d46eaa059be29931f467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc2629d0153c42f16703a9bbf393101e') in 0.013664 seconds 
+  Import took 0.018027 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.099483 seconds.
+  path: Assets/Stomper Artwork/PixelArt/Misc/Door/active1.png
+  artifactKey: Guid(9b024d8f515be40cbae6ead0ed67c4b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/PixelArt/Misc/Door/active1.png using Guid(9b024d8f515be40cbae6ead0ed67c4b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a2c6bb3ed20422a98de9134ec13d815') in 0.040306 seconds 
+  Import took 0.044554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Stomper Artwork/PixelArt/Misc/Door/active2.png
+  artifactKey: Guid(dae24c7ff43684616b9d4f632739ace4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/PixelArt/Misc/Door/active2.png using Guid(dae24c7ff43684616b9d4f632739ace4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c692c954405449d369b52d3d76e44f33') in 0.026110 seconds 
+  Import took 0.030375 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Stomper Artwork/PixelArt/Misc/Door/active3.png
+  artifactKey: Guid(475a694f58a3449e2a72cb716577ee65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/PixelArt/Misc/Door/active3.png using Guid(475a694f58a3449e2a72cb716577ee65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '043efc71f8904f5f4a7a79dcc70067f9') in 0.026308 seconds 
+  Import took 0.031443 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/Stomper Artwork/PixelArt/Misc/Door/active4.png
+  artifactKey: Guid(73a0ffe289fff40f2bc8c85b76ec004d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/PixelArt/Misc/Door/active4.png using Guid(73a0ffe289fff40f2bc8c85b76ec004d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50685ca868e0c03f006c4d790dbfcba4') in 0.024737 seconds 
+  Import took 0.029234 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Stomper Artwork/PixelArt/Misc/Door/door.png
+  artifactKey: Guid(edd5788e55655401897d588fbe6ac000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/PixelArt/Misc/Door/door.png using Guid(edd5788e55655401897d588fbe6ac000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0945f788cbf6500cd8a5cd527b7b414') in 0.027728 seconds 
+  Import took 0.032147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.534486 seconds.
+  path: Assets/Stomper Artwork/PixelArt/Misc/Gem/gem-empty.png
+  artifactKey: Guid(67071d2ce198740f8bcd8586d45fffe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/PixelArt/Misc/Gem/gem-empty.png using Guid(67071d2ce198740f8bcd8586d45fffe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb581846efd76424aa5d1042e2d96e42') in 0.022901 seconds 
+  Import took 0.028459 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Stomper Artwork/PixelArt/Misc/Gem/gem-taken.png
+  artifactKey: Guid(1e27483927872497e95efdeea3d0c15b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/PixelArt/Misc/Gem/gem-taken.png using Guid(1e27483927872497e95efdeea3d0c15b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62ac7f39c512cf8aec9d807c8187010c') in 0.023695 seconds 
+  Import took 0.028100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Stomper Artwork/PixelArt/Misc/Gem/gem2.png
+  artifactKey: Guid(4003d8eb90c5d4e09bb13eeec51db1f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/PixelArt/Misc/Gem/gem2.png using Guid(4003d8eb90c5d4e09bb13eeec51db1f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5aa71e76356aa4e453418d0b738cc55') in 0.039270 seconds 
+  Import took 0.043868 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/Stomper Artwork/PixelArt/Misc/Gem/gem6.png
+  artifactKey: Guid(18047cec9c971433396269bd038c02d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/PixelArt/Misc/Gem/gem6.png using Guid(18047cec9c971433396269bd038c02d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3325eb074fbce9bc1a6a0632b167c1fd') in 0.027707 seconds 
+  Import took 0.032824 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Stomper Artwork/PixelArt/Misc/Gem/gem4.png
+  artifactKey: Guid(ed82d82655d804c86a13ff52500d33cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/PixelArt/Misc/Gem/gem4.png using Guid(ed82d82655d804c86a13ff52500d33cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12b8a55ec39aa59d6fc953a5b5216105') in 0.025903 seconds 
+  Import took 0.031556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/Stomper Artwork/PixelArt/Misc/Gem/gem3.png
+  artifactKey: Guid(cf7729787a42d4c969e3679617ced49a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/PixelArt/Misc/Gem/gem3.png using Guid(cf7729787a42d4c969e3679617ced49a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a226040d134e12e4bcd72b3ec4f7f896') in 0.026265 seconds 
+  Import took 0.031621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/Stomper Artwork/PixelArt/Misc/Gem/gem1.png
+  artifactKey: Guid(b5628650d6ac5464abcdd066c8446caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/PixelArt/Misc/Gem/gem1.png using Guid(b5628650d6ac5464abcdd066c8446caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ba59c4a6f81239823025f3dd7df4f7d') in 0.024708 seconds 
+  Import took 0.029630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Stomper Artwork/PixelArt/Misc/Gem/gem5.png
+  artifactKey: Guid(0ab0b50b3087e48ec9090fbc17c5f51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/PixelArt/Misc/Gem/gem5.png using Guid(0ab0b50b3087e48ec9090fbc17c5f51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b349350af8a87c4687d4887d964a64b8') in 0.028633 seconds 
+  Import took 0.033820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.039329 seconds.
+  path: Assets/Stomper Artwork/PixelArt/Misc/Shoot/shoot1.png
+  artifactKey: Guid(680f9876fbaa54e8dbecdd253ee58714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/PixelArt/Misc/Shoot/shoot1.png using Guid(680f9876fbaa54e8dbecdd253ee58714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9e4ff41ac67fe78fbe1e05148fd05b0') in 0.024502 seconds 
+  Import took 0.029910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Stomper Artwork/PixelArt/Misc/Shoot/shoot3.png
+  artifactKey: Guid(341ac4dc5d577473f8f960b1ee778803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/PixelArt/Misc/Shoot/shoot3.png using Guid(341ac4dc5d577473f8f960b1ee778803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '877091c54d611b63aa6731c4e38f35e3') in 0.022490 seconds 
+  Import took 0.026176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Stomper Artwork/PixelArt/Misc/Shoot/shoot2.png
+  artifactKey: Guid(d679fb3f289d54c8195275abb512bba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/PixelArt/Misc/Shoot/shoot2.png using Guid(d679fb3f289d54c8195275abb512bba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9b41b7f0e527cfce06dbf6114374f67') in 0.032398 seconds 
+  Import took 0.037376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.281636 seconds.
+  path: Assets/Stomper Artwork/PixelArt/Player/Air/fall.png
+  artifactKey: Guid(71678cc005a5d47e3aa691eb1d04ed35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/PixelArt/Player/Air/fall.png using Guid(71678cc005a5d47e3aa691eb1d04ed35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fa9e10a30941bdd4123a21d18a05aaa') in 0.028740 seconds 
+  Import took 0.033386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/Stomper Artwork/PixelArt/Player/Air/Jump.png
+  artifactKey: Guid(254f18d9bf12c461a9e02de77091fe5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/PixelArt/Player/Air/Jump.png using Guid(254f18d9bf12c461a9e02de77091fe5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78b0d0bc737824942973ed0372073b3a') in 0.024293 seconds 
+  Import took 0.028983 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.955601 seconds.
+  path: Assets/Stomper Artwork/PixelArt/Player/Duck/duck.png
+  artifactKey: Guid(8a0f0900b95e9479890a601100f939d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/PixelArt/Player/Duck/duck.png using Guid(8a0f0900b95e9479890a601100f939d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2738037260c3e35a8815f83f90653cf') in 0.036981 seconds 
+  Import took 0.040885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Stomper Artwork/PixelArt/Player/Duck/duck1.png
+  artifactKey: Guid(6e58eab279e5b4e7db80931c887eea54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/PixelArt/Player/Duck/duck1.png using Guid(6e58eab279e5b4e7db80931c887eea54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41d09ab89b36675e94bb8440955eef02') in 0.023136 seconds 
+  Import took 0.027525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Stomper Artwork/PixelArt/Player/Duck/duck2.png
+  artifactKey: Guid(f2ab79a70b18b49beb85af2cb9718d9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/PixelArt/Player/Duck/duck2.png using Guid(f2ab79a70b18b49beb85af2cb9718d9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b8cef3f698c505ed80921c8570872dc') in 0.030370 seconds 
+  Import took 0.035708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.618661 seconds.
+  path: Assets/Stomper Artwork/PixelArt/Player/Roll/Roll1.png
+  artifactKey: Guid(e86142c8c624342819b45f8d54492e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/PixelArt/Player/Roll/Roll1.png using Guid(e86142c8c624342819b45f8d54492e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '518e47f65292305e5ad4047c89cf53dd') in 0.028310 seconds 
+  Import took 0.033062 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Stomper Artwork/PixelArt/Player/Roll/Roll3.png
+  artifactKey: Guid(e3174e2ffe8a24d83a51c92a62027973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/PixelArt/Player/Roll/Roll3.png using Guid(e3174e2ffe8a24d83a51c92a62027973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '633678e1120dfcdf2fad5654ffdfe17b') in 0.027249 seconds 
+  Import took 0.032558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Stomper Artwork/PixelArt/Player/Roll/trace.png
+  artifactKey: Guid(77ff09cbc456a4c7682d880102d96cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/PixelArt/Player/Roll/trace.png using Guid(77ff09cbc456a4c7682d880102d96cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f1d579f6604549a4201fca102c48ae0') in 0.027457 seconds 
+  Import took 0.032785 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Stomper Artwork/PixelArt/Player/Roll/Roll2.png
+  artifactKey: Guid(c967fa266a1ac4c5f963718d56691d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/PixelArt/Player/Roll/Roll2.png using Guid(c967fa266a1ac4c5f963718d56691d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '293fadbd9b0fb599e1c3f05441715a3b') in 0.025994 seconds 
+  Import took 0.030508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.031492 seconds.
+  path: Assets/Stomper Artwork/PixelArt/Player/run/run1.png
+  artifactKey: Guid(2ebdf02f09f8f4c29b2fd63c72cd0dec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/PixelArt/Player/run/run1.png using Guid(2ebdf02f09f8f4c29b2fd63c72cd0dec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c42de66140b152336a2896a77ab23f77') in 0.025374 seconds 
+  Import took 0.030329 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Stomper Artwork/PixelArt/Player/run/run10.png
+  artifactKey: Guid(61015feaa74de420884bd14dd2fcb5e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/PixelArt/Player/run/run10.png using Guid(61015feaa74de420884bd14dd2fcb5e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94fbeea018ec4f5777e1a7c38401fa61') in 0.024678 seconds 
+  Import took 0.029520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/Stomper Artwork/PixelArt/Player/run/run2.png
+  artifactKey: Guid(04214dc21349240c8b234d8a34dac1dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/PixelArt/Player/run/run2.png using Guid(04214dc21349240c8b234d8a34dac1dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26b7c8e2d20fbded57ba25272bd58231') in 0.028750 seconds 
+  Import took 0.033417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Stomper Artwork/PixelArt/Player/run/run7.png
+  artifactKey: Guid(ecd23ad04c1d14108b42edffb171827c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/PixelArt/Player/run/run7.png using Guid(ecd23ad04c1d14108b42edffb171827c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa64022a956065ff959da39c2cb2db39') in 0.024821 seconds 
+  Import took 0.029951 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Stomper Artwork/PixelArt/Player/run/run4.png
+  artifactKey: Guid(b1ee6d1c5c11a49eba6f3f232d8f4cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/PixelArt/Player/run/run4.png using Guid(b1ee6d1c5c11a49eba6f3f232d8f4cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c1b3dbd7ae62a47e5491df41eb8105c') in 0.025960 seconds 
+  Import took 0.031117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Stomper Artwork/PixelArt/Player/run/run9.png
+  artifactKey: Guid(c0b8d0ea20b644a0cb9ad7ac6d1a59be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/PixelArt/Player/run/run9.png using Guid(c0b8d0ea20b644a0cb9ad7ac6d1a59be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '827cd8a9998c5fbf6405e41673c59265') in 0.024019 seconds 
+  Import took 0.028706 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Stomper Artwork/PixelArt/Player/run/run6.png
+  artifactKey: Guid(380e3777f511a4e0b9c6ce07d51489d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/PixelArt/Player/run/run6.png using Guid(380e3777f511a4e0b9c6ce07d51489d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff03e3ea54cf076229c784a6955c146f') in 0.024025 seconds 
+  Import took 0.028233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Stomper Artwork/PixelArt/Player/run/run3.png
+  artifactKey: Guid(2e2d3323cd6e647dc98c37d2577aa908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/PixelArt/Player/run/run3.png using Guid(2e2d3323cd6e647dc98c37d2577aa908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7006526d56507584043bab836cd7e24') in 0.027339 seconds 
+  Import took 0.032757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Stomper Artwork/PixelArt/Player/run/run8.png
+  artifactKey: Guid(0cd74157f477343e4920122faf9f59a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/PixelArt/Player/run/run8.png using Guid(0cd74157f477343e4920122faf9f59a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a30c86e5fb923b314792ce8cb00dc8c') in 0.026635 seconds 
+  Import took 0.031348 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Stomper Artwork/PixelArt/Player/run/run5.png
+  artifactKey: Guid(496a9e7d153364a5285c65c37c76859c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/PixelArt/Player/run/run5.png using Guid(496a9e7d153364a5285c65c37c76859c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f82dc262f472c8fce82e4a7e4b50464') in 0.026886 seconds 
+  Import took 0.031684 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.407978 seconds.
+  path: Assets/Stomper Artwork/PixelArt/Walking Enemy/idle.png
+  artifactKey: Guid(99370be885ff94b3e8a882400246fa91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/PixelArt/Walking Enemy/idle.png using Guid(99370be885ff94b3e8a882400246fa91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b636ca20037d2ebe6a065ee3495cb8d7') in 0.039072 seconds 
+  Import took 0.043288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Stomper Artwork/PixelArt/Walking Enemy/walk3.png
+  artifactKey: Guid(a680e8a8a98d04386bfee7b7cde71bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/PixelArt/Walking Enemy/walk3.png using Guid(a680e8a8a98d04386bfee7b7cde71bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3652d2c818de72afd7bd06481871416f') in 0.025308 seconds 
+  Import took 0.029673 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/Stomper Artwork/PixelArt/Walking Enemy/stunt1.png
+  artifactKey: Guid(459aeeb4499bd4ae18acaca0c2f18a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/PixelArt/Walking Enemy/stunt1.png using Guid(459aeeb4499bd4ae18acaca0c2f18a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fdae6315b1ef85761b00f5d99645fd9') in 0.023100 seconds 
+  Import took 0.027749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Stomper Artwork/PixelArt/Walking Enemy/walk4.png
+  artifactKey: Guid(476f873e5df834836a97b1cfd87b81d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/PixelArt/Walking Enemy/walk4.png using Guid(476f873e5df834836a97b1cfd87b81d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d7acf5c050d3485109dbe3809acfcd7') in 0.027941 seconds 
+  Import took 0.032548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Stomper Artwork/PixelArt/Walking Enemy/stunt2.png
+  artifactKey: Guid(5596d62520e7c4958bc550449f85b053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/PixelArt/Walking Enemy/stunt2.png using Guid(5596d62520e7c4958bc550449f85b053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c3ffa0e9dd9b1a71b88100495ca2227') in 0.027893 seconds 
+  Import took 0.032274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Stomper Artwork/PixelArt/Walking Enemy/walk1.png
+  artifactKey: Guid(46f589260df374ebf86d73ab0c0b11b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/PixelArt/Walking Enemy/walk1.png using Guid(46f589260df374ebf86d73ab0c0b11b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7b91bce3b1783528f407191939d9186') in 0.033297 seconds 
+  Import took 0.038534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/Stomper Artwork/PixelArt/Walking Enemy/walk2.png
+  artifactKey: Guid(7fc720fde239749cca9f59c68f538a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/PixelArt/Walking Enemy/walk2.png using Guid(7fc720fde239749cca9f59c68f538a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73b65c7a929554fea0c1810f4b13f5d7') in 0.028264 seconds 
+  Import took 0.033312 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.439304 seconds.
+  path: Assets/Stomper Artwork/PixelArt/Walking Enemy Small/walker-small1.png
+  artifactKey: Guid(60f97098ca8464d2da341a88bd993f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/PixelArt/Walking Enemy Small/walker-small1.png using Guid(60f97098ca8464d2da341a88bd993f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c026907a03083c5ef34270b17dfbb13') in 0.026718 seconds 
+  Import took 0.032054 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Stomper Artwork/PixelArt/Walking Enemy Small/walker-small3.png
+  artifactKey: Guid(b5fc1eff229eb49419937087fb539839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/PixelArt/Walking Enemy Small/walker-small3.png using Guid(b5fc1eff229eb49419937087fb539839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed823da6addf6d083102a16969032258') in 0.023552 seconds 
+  Import took 0.028404 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000390 seconds.
+  path: Assets/Stomper Artwork/PixelArt/Walking Enemy Small/walker-small5.png
+  artifactKey: Guid(6d59ca1c407104b4c9c8da1e4899bb95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/PixelArt/Walking Enemy Small/walker-small5.png using Guid(6d59ca1c407104b4c9c8da1e4899bb95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fba8bf4626353ed7a268783dbd3e3b5') in 0.024592 seconds 
+  Import took 0.029717 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/Stomper Artwork/PixelArt/Walking Enemy Small/walker-small2.png
+  artifactKey: Guid(b7eae1a01acfc4635bc8ae654b77d7e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/PixelArt/Walking Enemy Small/walker-small2.png using Guid(b7eae1a01acfc4635bc8ae654b77d7e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c51e3328551704bf6b123fda1ea431b') in 0.027878 seconds 
+  Import took 0.032905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Stomper Artwork/PixelArt/Walking Enemy Small/walker-small4.png
+  artifactKey: Guid(039d677392d4f40498b5187a75bab0a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/PixelArt/Walking Enemy Small/walker-small4.png using Guid(039d677392d4f40498b5187a75bab0a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc6659cb652c7a824bcbd2be7e20c47e') in 0.027973 seconds 
+  Import took 0.032233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.882943 seconds.
+  path: Assets/Stomper Artwork/PixelArt/environment/Back animated
+  artifactKey: Guid(a353ae27571b04c329de8a43fae42bb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/PixelArt/environment/Back animated using Guid(a353ae27571b04c329de8a43fae42bb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '131d93e486e419c75975f7fcb389d877') in 0.027385 seconds 
+  Import took 0.031982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.247877 seconds.
+  path: Packages/com.unity.2d.animation
+  artifactKey: Guid(bb5c94055a953b6081dfc49350569eb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation using Guid(bb5c94055a953b6081dfc49350569eb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09fa518512abe465e781a54efa05d46a') in 0.011907 seconds 
+  Import took 0.017275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.086525 seconds.
+  path: Packages/com.unity.2d.animation/package.json
+  artifactKey: Guid(9e83c20a8293f44ec8a375d3805f477d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/package.json using Guid(9e83c20a8293f44ec8a375d3805f477d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '519ad1bf8fe5f847ba8bc5d602dfca65') in 0.030299 seconds 
+  Import took 0.034923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.274701 seconds.
+  path: Packages/com.unity.2d.animation/Editor
+  artifactKey: Guid(164d22a8da00e422a93e091c7bd338df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor using Guid(164d22a8da00e422a93e091c7bd338df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7de77fe18d6c50299dafc579996d4ccf') in 0.012241 seconds 
+  Import took 0.016472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.081707 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Unity.2D.Animation.Editor.asmdef
+  artifactKey: Guid(7e93558c536f24149a3181fbe0a14523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Unity.2D.Animation.Editor.asmdef using Guid(7e93558c536f24149a3181fbe0a14523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '226ae3b09d92cf2d26621cb9119ab407') in 0.017728 seconds 
+  Import took 0.023061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.830518 seconds.
+  path: Packages/com.unity.2d.sprite
+  artifactKey: Guid(0901a6b758d060e9422c4f8d588d5895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.sprite using Guid(0901a6b758d060e9422c4f8d588d5895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ac9f0859ed1eccac4506b3b2480e9d0') in 0.011871 seconds 
+  Import took 0.016047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.564958 seconds.
+  path: Packages/com.unity.2d.sprite/package.json
+  artifactKey: Guid(7dc5f1e5d04ac8549ac21802071e983b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.sprite/package.json using Guid(7dc5f1e5d04ac8549ac21802071e983b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff87128bdf6981a9843158b29f26b2df') in 0.026066 seconds 
+  Import took 0.030274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.731545 seconds.
+  path: Packages/com.unity.2d.sprite/Tests
+  artifactKey: Guid(7e2656e167a517b4d8552ba38f4b7bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.sprite/Tests using Guid(7e2656e167a517b4d8552ba38f4b7bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7c2fff4ccefa8c3c7b682e8bb96f3a8') in 0.011852 seconds 
+  Import took 0.016667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.975454 seconds.
+  path: Packages/com.unity.2d.sprite/Tests/Editor
+  artifactKey: Guid(dcc63292bf8cfd543b11bfdebe99cd02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.sprite/Tests/Editor using Guid(dcc63292bf8cfd543b11bfdebe99cd02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdce329cdc59d43f83003380ed963547') in 0.007598 seconds 
+  Import took 0.012116 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.054134 seconds.
+  path: Packages/com.unity.2d.sprite/Tests/Editor/Unity.2D.Sprite.Package.EditorTests.asmdef
+  artifactKey: Guid(52648b72c7bef2040bf0cfa8dd0f74da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.sprite/Tests/Editor/Unity.2D.Sprite.Package.EditorTests.asmdef using Guid(52648b72c7bef2040bf0cfa8dd0f74da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7b6b6d56508a66025edd877d40dc5f8') in 0.011857 seconds 
+  Import took 0.016514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.398259 seconds.
+  path: Packages/com.unity.2d.sprite/Tests/Editor/SpritePackageTests.cs
+  artifactKey: Guid(ea6dbc5d03b50f148a26b55c617dcb22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.sprite/Tests/Editor/SpritePackageTests.cs using Guid(ea6dbc5d03b50f148a26b55c617dcb22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98e217f43e4c9774effe57fe38dacb96') in 0.031159 seconds 
+  Import took 0.035862 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009689 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.865 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1865ms)
+		BeginReloadAssembly (227ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (64ms)
+		EndReloadAssembly (1496ms)
+			LoadAssemblies (186ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (458ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (74ms)
+			SetupLoadedEditorAssemblies (606ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (182ms)
+				ProcessInitializeOnLoadAttributes (379ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2081 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.3 MB.
+System memory in use after: 96.4 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2559.
+Total: 4.537900 ms (FindLiveObjects: 0.269800 ms CreateObjectMapping: 0.067000 ms MarkObjects: 4.171500 ms  DeleteObjects: 0.027900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006518 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.399 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1400ms)
+		BeginReloadAssembly (176ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (46ms)
+		EndReloadAssembly (1129ms)
+			LoadAssemblies (138ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (378ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (424ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (116ms)
+				ProcessInitializeOnLoadAttributes (273ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2081 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.3 MB.
+System memory in use after: 96.5 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2562.
+Total: 5.151100 ms (FindLiveObjects: 0.298500 ms CreateObjectMapping: 0.090400 ms MarkObjects: 4.736100 ms  DeleteObjects: 0.024300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2848.381620 seconds.
+  path: Assets/Stomper Artwork/PixelArt/environment/zaphire/zaphire Animation.anim
+  artifactKey: Guid(d1125c7f8043b40b7a1bc92dd5f85481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/PixelArt/environment/zaphire/zaphire Animation.anim using Guid(d1125c7f8043b40b7a1bc92dd5f85481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd59c14d79182b6d2f679a74ee4bf51be') in 0.036226 seconds 
+  Import took 0.041732 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 573.507879 seconds.
+  path: Assets/Stomper Artwork/PixelArt/environment/layers/tileset.png
+  artifactKey: Guid(e18eac11ce6cd4262a5c373ec2656d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/PixelArt/environment/layers/tileset.png using Guid(e18eac11ce6cd4262a5c373ec2656d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65596ea238439f348f035a9211764c6e') in 0.088242 seconds 
+  Import took 0.094257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 89.819265 seconds.
+  path: Assets/Stomper Artwork/PixelArt/environment/layers/tileset.png
+  artifactKey: Guid(e18eac11ce6cd4262a5c373ec2656d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/PixelArt/environment/layers/tileset.png using Guid(e18eac11ce6cd4262a5c373ec2656d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5d9274970f81c7ef8b0df8f7b2d4711') in 0.018841 seconds 
+  Import took 0.024036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 307.942931 seconds.
+  path: Assets/Stomper Artwork/PixelArt/environment/layers/tileset.png
+  artifactKey: Guid(e18eac11ce6cd4262a5c373ec2656d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/PixelArt/environment/layers/tileset.png using Guid(e18eac11ce6cd4262a5c373ec2656d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fee841a045b93f04a810ad4f33b18ef5') in 0.078285 seconds 
+  Import took 0.083235 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 862.143020 seconds.
+  path: Assets/Stomper Artwork/PixelArt/environment/layers/tileset.png
+  artifactKey: Guid(e18eac11ce6cd4262a5c373ec2656d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/PixelArt/environment/layers/tileset.png using Guid(e18eac11ce6cd4262a5c373ec2656d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '633b40652f74e63b79ff8ac0aa17108a') in 0.073163 seconds 
+  Import took 0.078793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 87.590011 seconds.
+  path: Assets/Stomper Artwork/PixelArt/environment/layers/tileset.png
+  artifactKey: Guid(e18eac11ce6cd4262a5c373ec2656d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/PixelArt/environment/layers/tileset.png using Guid(e18eac11ce6cd4262a5c373ec2656d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d335f55ef870735ded6c3767760b90d') in 0.069714 seconds 
+  Import took 0.075261 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
